@@ -43,7 +43,7 @@ public class WorkoutListFragment extends ListFragment {
         super.onAttach(context);
         this.listener = (Listener)context;
     }
-    
+
     @Override
     public void onListItemClick(ListView listView, View itemView, int position, long id) {
         if (listener != null) {
